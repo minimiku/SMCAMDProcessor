@@ -18,7 +18,7 @@ class ProcessorModel {
     private var lastMLoad : Double = 0
     
     private var PStateDef : [UInt64] = []
-    private var PStateCur : Int = 0
+    private var PStateCur : Int = 1
     private var instructionDelta : [UInt64] = []
     private var loadIndex : [Float] = []
     private var PStateDefClock : [Float] = []
