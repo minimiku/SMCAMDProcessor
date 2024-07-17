@@ -216,7 +216,7 @@ class PowerToolViewController: NSViewController, NSWindowDelegate {
         let pstateCur = ProcessorModel.shared.getPState()
         let s = ProcessorModel.shared.getPPM()
         let pdt = vaildStatesClock.map{ "\(Int($0))Mhz" }
-        overviewSpeedShift.setOptions(newOptions: pdt, selection: s ? -1 : pstateCur)
+        overviewSpeedShift.setOptions(newOptions: pdt, selection: s ? 1 : pstateCur)
     }
     
     func updateCPB() {
