@@ -10,7 +10,7 @@ import Cocoa
 @IBDesignable
 class CPUSpeedShiftView: NSControl {
     
-    var selectedItem : Int = 0
+    var selectedItem : Int = 1
     var highlightedItem : Int = -1
     
     @IBInspectable var borderWidth: CGFloat = 1
